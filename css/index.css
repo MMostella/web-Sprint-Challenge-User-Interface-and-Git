@@ -181,7 +181,7 @@ footer nav a {
     text-decoration: none;
     color: #000000;
     font-size: 80%;
-    margin-top: 2% -50% 0 -50%;
+    margin-top: 2%;
     font-weight: bold;
 }
 
@@ -221,24 +221,58 @@ footer nav a {
     border-bottom: 2px dotted #000000;
 }
 
-.middle-about {
-    margin: 2% 0 2% 0;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
+.top-about p {
+    font-size: 90%;
 }
 
-.containerAboutPage .middle-about .middle-shell {
+.middle-about {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+}
+
+.middle-about p {
+    font-size: 90%;
+}
+
+.letsTest {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.letsTest img {
+    width: 550px;
+    margin: 2% 0 2% 0;
+}
+
+.middle-shell {
+    display: flex;
+    justify-content: flex-start;
     flex-flow: row wrap;
     padding-bottom: 2%;
     border-bottom: 2px dotted #000000;
-    margin: 2% 0 2% 0;
+    margin-bottom: 5%;
+    width: 45%;
 }
 
-.containerAboutPage .learn {
-    color: red;
-    border: 3px solid #000000;
+.learn {
+    color: #000000;
+    border-radius: 10px;
+    padding: 1% 3% 1% 3%;
+    border: 2px solid #000000;
+    font-weight: bold;
+    background-color: #ffffff;
+    margin-top: 2%;
+}
+
+.containerAboutPage .learn:hover {
+    background-color: lightgray;
+    cursor: pointer;
 }
 
 .middle-content .boxes .box {
@@ -297,11 +331,11 @@ footer nav a {
 }
 
 .bottom-about {
-    margin: 5% 2% 5% 2%;
+    margin: 2% 2% 5% 2%;
 }
 
 .bottom-about p {
-    font-size: 75%;
+    font-size: 90%;
 }
 
 footer {
