@@ -153,12 +153,11 @@ footer nav a {
 
 
 body {
-    font-weight: bold;
     border-top: 13px solid #000000;
-    border-bottom: 13px solid #000000;
+    /* border-bottom: 13px solid #000000; */
 }
 
-nav a {
+.navTop a {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -166,9 +165,10 @@ nav a {
     color: #000000;
     font-size: 80%;
     margin-top: 2%;
+    font-weight: bold;
 }
 
-nav {
+.navTop {
     display: flex;
     justify-content: space-between;
     width: 95%;
@@ -179,6 +179,10 @@ nav {
     margin: 2% 0 2% 0;
 }
 
+.top-content {
+    font-weight: bold;
+}
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -187,6 +191,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: none;
 }
 
 #one {
@@ -227,4 +232,12 @@ nav {
 
 #ten {
     background-color: dodgerblue;
+}
+
+.bottom-content {
+    font-weight: bold;
+}
+
+footer {
+    margin-bottom: 25%;
 }
