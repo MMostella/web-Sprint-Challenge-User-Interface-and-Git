@@ -66,21 +66,21 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [1] Build the HTML and CSS to create the missing navigation and header.
+* [1] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [1] box1: `teal`
+* [1] box2: `gold`
+* [1] box3: `cadetblue`
+* [1] box4: `coral`
+* [1] box5: `crimson`
+* [1] box6: `forestgreen`
+* [1] box7: `darkorchid`
+* [1] box8: `hotpink`
+* [1] box9: `indigo`
+* [1] box10: `dodgerblue`
 
 ### About Page
 
