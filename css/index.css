@@ -152,12 +152,23 @@ footer nav a {
 
 
 
-body {
+.bodyHome {
     border-top: 13px solid #000000;
     /* border-bottom: 13px solid #000000; */
 }
 
 .navTop a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    font-size: 80%;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+.navTopAbout a {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -175,8 +186,21 @@ body {
     margin: 3% 0 3% 0;
 }
 
+.navTopAbout {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin: 3% 0 3% 0;
+}
+
 .headImg {
     margin: 2% 0 2% 0;
+}
+
+.headImgAbout {
+    display: flex;
+    justify-content: center;
+    width: 80%;
 }
 
 .top-content {
